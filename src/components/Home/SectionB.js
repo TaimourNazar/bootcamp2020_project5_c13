@@ -8,7 +8,6 @@ const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
         display: "flex",
-        //background: "linear-gradient(to bottom, white, grey, silver)",
         height: "100%",
     },
     heading:{
@@ -38,7 +37,7 @@ export default function SectionB() {
         <div className={classes.root}>
             <Grid container spacing={1}>
                 <Grid item xs={12}>
-                    <h1 className={classes.heading}>Complete React Website Demo</h1>
+                    <h1 className={classes.heading}>React Website Demonstration</h1>
                 </Grid>
                 <Grid item xs={6}>
                     <img src={laptop} ref={laptopanim.ref} width="400px" alt="tech" className={classes.worker_img} />

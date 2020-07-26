@@ -57,8 +57,8 @@ export default function SectionA() {
         <div className={classes.root}>
             <Grid container spacing={1}>
                 <Grid item xs={6}>
-                    <h1 className={classes.heading}>4th Industrial Revolution</h1>
-                    <h3 className={classes.heading} ref={textanim.ref}>React Website Animation Demo</h3>
+                    <h1 className={classes.heading}>React Website Demo</h1>
+                    <h3 className={classes.heading} ref={textanim.ref}>WebAnimationApi, Chartjs, MaterialUi, Router, CountUp</h3>
                 </Grid>
                 <Grid item xs={6}>
                     <img src={direction} ref={netanim.ref} className={classes.network_img} alt="network"/>
